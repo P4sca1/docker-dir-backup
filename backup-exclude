@@ -1,0 +1,64 @@
+# Contains mounted file systems:
+.gvfs
+.local/share/gvfs-metadata
+
+# Contains the actual encrypted home directory
+/.Private
+
+# Session-specific:
+/.dbus
+.cache
+/.Trash
+.Trash-1*
+.local/share/Trash
+/Trash
+
+# Cached info about audio CDs:
+.cddb
+
+# Cached packages lists:
+.aptitude
+
+# Node Package Manager cache
+.npm
+
+# Flash-specific:
+# Cache for flash
+.adobe
+# except for flash persistence, there is no reason to keep this
+.macromedia
+
+# Files:
+# Contains errors from the current graphical session
+.xsession-errors
+.wayland-errors
+
+# Recently used files
+.local/share/RecentDocuments
+.recently-used
+.recently-used.xbel
+recently-used.xbel
+.thumbnails
+.thumb
+Thumbs.db
+.DS_Store
+.localised
+.bash_history
+.CFUserTextEncoding
+
+# Common Unix Printing System
+/.cups
+
+# run-time configuration information for Subversion
+/.subversion
+
+# Python virtual environments
+/.virtualenvs
+
+# Session-specific
+.Xauthority
+.ICEauthority
+.gksu.lock
+.pulse
+.pulse-cookie
+.esd_auth
